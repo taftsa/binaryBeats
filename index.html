@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				
+		<title>Binary Beats</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="  crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="topbar"><h1>Binary Beats</h1></div>
+
+		<div id="rhythm"></div>
+		<div id="beatMap">
+			<div id="map1" class="map map1">Beat 1</div>
+			<div id="map2" class="map map2">Beat 2</div>
+			<div id="map3" class="map map3">Beat 3</div>
+			<div id="map4" class="map map4">Beat 4</div>
+		</div>
+			
+		<div id="selection">
+			<p>Rhythm #: <span id="num"></span></p>
+			<p>Rhythm Code: <span id="code"></span></p>
+			
+			<div id="previous" class="nav"><<< Previous</div>
+			<input type="number" min="0" max="255" id="value">
+			<input type="submit" value="Load" id="submit">
+			<div id="next" class="nav">Next >>></div>
+
+		</div>
+
+
+		
+
+	</body>
+<html>
